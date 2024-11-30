@@ -562,12 +562,6 @@ INFO  --- 2024-11-30 20:09:27,996 --- DBOffloader --- Initialized DBOffloader an
 INFO  --- 2024-11-30 20:09:27,996 --- DBOffloader --- Migrating table: school
 INFO  --- 2024-11-30 20:09:27,996 --- CheckConnections --- Initialized CheckConnections
 INFO  --- 2024-11-30 20:09:27,998 --- RecordingDurationMonitor --- Recording duration monitor thread started
-INFO  --- 2024-11-30 20:09:28,017 --- S3Uploader --- Successfully initialized AWS clients
-INFO  --- 2024-11-30 20:09:28,647 --- DBOffloader --- Data fetched for school, rows: 5
-INFO  --- 2024-11-30 20:09:28,742 --- DBOffloader --- Data inserted into school.
-INFO  --- 2024-11-30 20:09:28,775 --- DBOffloader --- Migrating table: staff
-INFO  --- 2024-11-30 20:09:28,843 --- DBOffloader --- Data fetched for staff, rows: 32
-INFO  --- 2024-11-30 20:09:28,927 --- DBOffloader --- Data inserted into staff.
 INFO  --- 2024-11-30 20:09:28,961 --- DBOffloader --- Migrating table: subject_group
 INFO  --- 2024-11-30 20:09:29,029 --- DBOffloader --- Data fetched for subject_group, rows: 40
 INFO  --- 2024-11-30 20:09:29,113 --- DBOffloader --- Data inserted into subject_group.
