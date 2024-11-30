@@ -330,6 +330,3 @@ ERROR  --- 2024-11-28 11:56:23,579 --- CheckConnections --- No audio device foun
 INFO  --- 2024-11-28 11:56:23,579 --- CheckConnections --- Testing video device at /dev/video1
 ERROR  --- 2024-11-28 11:56:23,581 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
 INFO  --- 2024-11-28 11:56:23,581 --- views --- Camera status: False, Mic status: False, Screen capture status: False
-
-
-
