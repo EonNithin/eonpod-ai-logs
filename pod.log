@@ -1,3 +1,208 @@
+INFO  --- 2024-11-27 13:23:57,938 --- views --- Response from API: 200
+INFO  --- 2024-11-27 13:23:57,943 --- views --- subject group values fetched:[{'id': '2c5b683d-a21a-440d-b297-991bc7139c8f', 'class_name': '9', 'subject': 'Biology ', 'is_language_subject': False, 'section': 'A', 'title': 'BI101', 'is_active': True, 'school_id': '4d8ba306-6bca-4134-a34e-ce5168b9d0d9'}]
+INFO  --- 2024-11-27 13:24:00,068 --- CheckConnections --- Testing RTSP connection to rtsp://admin:hik@9753@192.168.0.77:554/Streaming/Channels/101
+INFO  --- 2024-11-27 13:24:01,646 --- views --- selected subject is : BI101
+INFO  --- 2024-11-27 13:24:01,646 --- views --- subject name is : Biology 
+INFO  --- 2024-11-27 13:24:01,646 --- views --- class_no  is : 9
+INFO  --- 2024-11-27 13:24:01,646 --- views --- Started recording for subject: BI101
+INFO  --- 2024-11-27 13:24:01,646 --- views --- Is language: False
+INFO  --- 2024-11-27 13:24:01,646 --- RecordingDurationMonitor --- Recording start time set
+INFO  --- 2024-11-27 13:24:01,696 --- Recorder --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 13:24:01,696 --- Recorder --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 13:24:01,696 --- Recorder --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 13:24:01,696 --- Recorder --- Audio device detected is: (5, '(hw:5,0)')
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Media folder path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files (Type: <class 'str'>)
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Subject: BI101 (Type: <class 'str'>)
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Timestamp: 27-11-2024_13-24-01 (Type: <class 'str'>)
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Constructed filepath: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/BI101/27-11-2024_13-24-01 (Type: <class 'str'>)
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Filename: 27-11-2024_13-24-01_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Full filepath with filename: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/BI101/27-11-2024_13-24-01/27-11-2024_13-24-01_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Audio device index: 5
+INFO  --- 2024-11-27 13:24:01,697 --- Recorder --- Audio device hw_value: hw:5,0
+INFO  --- 2024-11-27 13:24:01,837 --- Recorder --- Recording started: 27-11-2024_13-24-01_recorded_video_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/BI101/27-11-2024_13-24-01/27-11-2024_13-24-01_recorded_video_0.mp4
+INFO  --- 2024-11-27 13:24:01,973 --- Recorder --- Screen Grab started: 27-11-2024_13-24-01_screen_grab_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/BI101/27-11-2024_13-24-01/27-11-2024_13-24-01_screen_grab_0.mp4
+ERROR  --- 2024-11-27 13:24:03,112 --- CheckConnections --- Failed to connect to RTSP stream.
+DEBUG  --- 2024-11-27 13:24:05,116 --- CheckConnections --- device name passed to pyaudio function is :USB Composite Device
+DEBUG  --- 2024-11-27 13:24:05,117 --- CheckConnections --- Checking device: rockchip-hdmi0: i2s-hifi-0 (hw:0,0)
+DEBUG  --- 2024-11-27 13:24:05,117 --- CheckConnections --- Checking device: rockchip-hdmi1: i2s-hifi-0 (hw:1,0)
+DEBUG  --- 2024-11-27 13:24:05,117 --- CheckConnections --- Checking device: rockchip-dp0: spdif-hifi-0 (hw:2,0)
+DEBUG  --- 2024-11-27 13:24:05,117 --- CheckConnections --- Checking device: rockchip-hdmiin: i2s-hifi-0 (hw:3,0)
+DEBUG  --- 2024-11-27 13:24:05,118 --- CheckConnections --- Checking device: rockchip-es8316: dailink-multicodecs ES8316 HiFi-0 (hw:4,0)
+DEBUG  --- 2024-11-27 13:24:05,118 --- CheckConnections --- Checking device: USB Composite Device: Audio (hw:5,0)
+INFO  --- 2024-11-27 13:24:05,118 --- CheckConnections --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 13:24:05,119 --- CheckConnections --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 13:24:05,119 --- CheckConnections --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 13:24:05,119 --- CheckConnections --- Testing ALSA connection with device index 5
+INFO  --- 2024-11-27 13:24:05,122 --- CheckConnections --- ALSA audio device is available at 48000 Hz!
+DEBUG  --- 2024-11-27 13:24:05,145 --- CheckConnections --- Successfully read audio data.
+INFO  --- 2024-11-27 13:24:05,159 --- CheckConnections --- Testing video device at /dev/video1
+ERROR  --- 2024-11-27 13:24:05,160 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
+INFO  --- 2024-11-27 13:24:05,160 --- views --- Camera status: False, Mic status: True, Screen capture status: False
+INFO  --- 2024-11-27 14:06:18,819 --- views --- Selected Subject: BI101
+INFO  --- 2024-11-27 14:06:18,819 --- views --- subject name is : Biology 
+INFO  --- 2024-11-27 14:06:18,820 --- views --- class_no  is : 9
+INFO  --- 2024-11-27 14:06:18,820 --- views --- Is language: False
+INFO  --- 2024-11-27 14:06:18,820 --- views --- Type of is_language: <class 'str'>: value : False
+INFO  --- 2024-11-27 14:06:18,821 --- RecordingDurationMonitor --- Recording data cleared
+WARNING  --- 2024-11-27 14:06:18,821 --- Recorder --- No recording in progress.
+WARNING  --- 2024-11-27 14:06:18,823 --- Recorder --- No screen grab in progress.
+INFO  --- 2024-11-27 14:06:18,823 --- views --- Stopped recording for subject: BI101
+INFO  --- 2024-11-27 14:06:18,823 --- views --- No recordings found.
+INFO  --- 2024-11-27 14:06:18,824 --- views --- No Screen grab Recording found.
+INFO  --- 2024-11-27 14:08:43,547 --- views --- Response from API: 200
+INFO  --- 2024-11-27 14:08:43,557 --- views --- subject group values fetched:[{'id': 'ad6d93ff-dee1-416e-96b2-2a16db0d665b', 'class_name': '9', 'subject': 'Hindi', 'is_language_subject': False, 'section': 'A', 'title': 'HI101', 'is_active': True, 'school_id': '4d8ba306-6bca-4134-a34e-ce5168b9d0d9'}]
+INFO  --- 2024-11-27 14:08:48,595 --- CheckConnections --- Testing RTSP connection to rtsp://admin:hik@9753@192.168.0.77:554/Streaming/Channels/101
+DEBUG  --- 2024-11-27 14:08:49,934 --- CheckConnections --- RTSP connection successful!
+INFO  --- 2024-11-27 14:08:51,763 --- views --- selected subject is : HI101
+INFO  --- 2024-11-27 14:08:51,763 --- views --- subject name is : Hindi
+INFO  --- 2024-11-27 14:08:51,763 --- views --- class_no  is : 9
+INFO  --- 2024-11-27 14:08:51,763 --- views --- Started recording for subject: HI101
+INFO  --- 2024-11-27 14:08:51,763 --- views --- Is language: False
+INFO  --- 2024-11-27 14:08:51,763 --- RecordingDurationMonitor --- Recording start time set
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Audio device detected is: (5, '(hw:5,0)')
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Media folder path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Subject: HI101 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Timestamp: 27-11-2024_14-08-51 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Constructed filepath: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/HI101/27-11-2024_14-08-51 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Filename: 27-11-2024_14-08-51_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Full filepath with filename: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/HI101/27-11-2024_14-08-51/27-11-2024_14-08-51_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Audio device index: 5
+INFO  --- 2024-11-27 14:08:51,764 --- Recorder --- Audio device hw_value: hw:5,0
+INFO  --- 2024-11-27 14:08:51,876 --- Recorder --- Recording started: 27-11-2024_14-08-51_recorded_video_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/HI101/27-11-2024_14-08-51/27-11-2024_14-08-51_recorded_video_0.mp4
+DEBUG  --- 2024-11-27 14:08:51,939 --- CheckConnections --- device name passed to pyaudio function is :USB Composite Device
+DEBUG  --- 2024-11-27 14:08:51,940 --- CheckConnections --- Checking device: rockchip-hdmi0: i2s-hifi-0 (hw:0,0)
+DEBUG  --- 2024-11-27 14:08:51,941 --- CheckConnections --- Checking device: rockchip-hdmi1: i2s-hifi-0 (hw:1,0)
+DEBUG  --- 2024-11-27 14:08:51,941 --- CheckConnections --- Checking device: rockchip-dp0: spdif-hifi-0 (hw:2,0)
+DEBUG  --- 2024-11-27 14:08:51,941 --- CheckConnections --- Checking device: rockchip-hdmiin: i2s-hifi-0 (hw:3,0)
+DEBUG  --- 2024-11-27 14:08:51,942 --- CheckConnections --- Checking device: rockchip-es8316: dailink-multicodecs ES8316 HiFi-0 (hw:4,0)
+DEBUG  --- 2024-11-27 14:08:51,942 --- CheckConnections --- Checking device: USB Composite Device: Audio (hw:5,0)
+INFO  --- 2024-11-27 14:08:51,943 --- CheckConnections --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 14:08:51,943 --- CheckConnections --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 14:08:51,943 --- CheckConnections --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 14:08:51,944 --- CheckConnections --- Testing ALSA connection with device index 5
+INFO  --- 2024-11-27 14:08:51,946 --- CheckConnections --- ALSA audio device is available at 48000 Hz!
+DEBUG  --- 2024-11-27 14:08:51,970 --- CheckConnections --- Successfully read audio data.
+INFO  --- 2024-11-27 14:08:51,989 --- CheckConnections --- Testing video device at /dev/video1
+ERROR  --- 2024-11-27 14:08:51,990 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
+INFO  --- 2024-11-27 14:08:51,991 --- views --- Camera status: True, Mic status: True, Screen capture status: False
+INFO  --- 2024-11-27 14:08:51,997 --- Recorder --- Screen Grab started: 27-11-2024_14-08-51_screen_grab_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/HI101/27-11-2024_14-08-51/27-11-2024_14-08-51_screen_grab_0.mp4
+INFO  --- 2024-11-27 14:41:30,843 --- views --- Selected Subject: HI101
+INFO  --- 2024-11-27 14:41:30,843 --- views --- subject name is : Hindi
+INFO  --- 2024-11-27 14:41:30,844 --- views --- class_no  is : 9
+INFO  --- 2024-11-27 14:41:30,844 --- views --- Is language: False
+INFO  --- 2024-11-27 14:41:30,844 --- views --- Type of is_language: <class 'str'>: value : False
+INFO  --- 2024-11-27 14:41:30,844 --- RecordingDurationMonitor --- Recording data cleared
+WARNING  --- 2024-11-27 14:41:30,845 --- Recorder --- No recording in progress.
+WARNING  --- 2024-11-27 14:41:30,845 --- Recorder --- No screen grab in progress.
+INFO  --- 2024-11-27 14:41:30,845 --- views --- Stopped recording for subject: HI101
+INFO  --- 2024-11-27 14:41:30,846 --- views --- No recordings found.
+INFO  --- 2024-11-27 14:41:30,846 --- views --- No Screen grab Recording found.
+INFO  --- 2024-11-27 14:48:52,235 --- views --- Response from API: 200
+INFO  --- 2024-11-27 14:48:52,240 --- views --- subject group values fetched:[{'id': '2a4ca579-247f-4993-821f-9c8e9f37b024', 'class_name': '9', 'subject': 'Telugu ', 'is_language_subject': False, 'section': 'A', 'title': 'TG101', 'is_active': True, 'school_id': '4d8ba306-6bca-4134-a34e-ce5168b9d0d9'}]
+INFO  --- 2024-11-27 14:48:59,249 --- CheckConnections --- Testing RTSP connection to rtsp://admin:hik@9753@192.168.0.77:554/Streaming/Channels/101
+DEBUG  --- 2024-11-27 14:49:00,468 --- CheckConnections --- RTSP connection successful!
+INFO  --- 2024-11-27 14:49:01,938 --- views --- selected subject is : TG101
+INFO  --- 2024-11-27 14:49:01,939 --- views --- subject name is : Telugu 
+INFO  --- 2024-11-27 14:49:01,939 --- views --- class_no  is : 9
+INFO  --- 2024-11-27 14:49:01,939 --- views --- Started recording for subject: TG101
+INFO  --- 2024-11-27 14:49:01,939 --- views --- Is language: False
+INFO  --- 2024-11-27 14:49:01,939 --- RecordingDurationMonitor --- Recording start time set
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Audio device detected is: (5, '(hw:5,0)')
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Media folder path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Subject: TG101 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Timestamp: 27-11-2024_14-49-01 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:49:01,939 --- Recorder --- Constructed filepath: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:49:01,940 --- Recorder --- Filename: 27-11-2024_14-49-01_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:49:01,940 --- Recorder --- Full filepath with filename: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 14:49:01,940 --- Recorder --- Audio device index: 5
+INFO  --- 2024-11-27 14:49:01,940 --- Recorder --- Audio device hw_value: hw:5,0
+INFO  --- 2024-11-27 14:49:02,072 --- Recorder --- Recording started: 27-11-2024_14-49-01_recorded_video_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video_0.mp4
+INFO  --- 2024-11-27 14:49:02,197 --- Recorder --- Screen Grab started: 27-11-2024_14-49-01_screen_grab_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_screen_grab_0.mp4
+DEBUG  --- 2024-11-27 14:49:02,474 --- CheckConnections --- device name passed to pyaudio function is :USB Composite Device
+DEBUG  --- 2024-11-27 14:49:02,475 --- CheckConnections --- Checking device: rockchip-hdmi0: i2s-hifi-0 (hw:0,0)
+DEBUG  --- 2024-11-27 14:49:02,475 --- CheckConnections --- Checking device: rockchip-hdmi1: i2s-hifi-0 (hw:1,0)
+DEBUG  --- 2024-11-27 14:49:02,475 --- CheckConnections --- Checking device: rockchip-dp0: spdif-hifi-0 (hw:2,0)
+DEBUG  --- 2024-11-27 14:49:02,475 --- CheckConnections --- Checking device: rockchip-hdmiin: i2s-hifi-0 (hw:3,0)
+DEBUG  --- 2024-11-27 14:49:02,476 --- CheckConnections --- Checking device: rockchip-es8316: dailink-multicodecs ES8316 HiFi-0 (hw:4,0)
+DEBUG  --- 2024-11-27 14:49:02,476 --- CheckConnections --- Checking device: USB Composite Device: Audio (hw:5,0)
+INFO  --- 2024-11-27 14:49:02,476 --- CheckConnections --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 14:49:02,477 --- CheckConnections --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 14:49:02,477 --- CheckConnections --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 14:49:02,477 --- CheckConnections --- Testing ALSA connection with device index 5
+ERROR  --- 2024-11-27 14:49:03,592 --- CheckConnections --- Failed to connect to ALSA audio device: [Errno -9985] Device unavailable
+INFO  --- 2024-11-27 14:49:03,592 --- CheckConnections --- Testing video device at /dev/video1
+ERROR  --- 2024-11-27 14:49:03,593 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
+INFO  --- 2024-11-27 14:49:03,593 --- views --- Camera status: True, Mic status: False, Screen capture status: False
+INFO  --- 2024-11-27 15:27:51,721 --- views --- Selected Subject: TG101
+INFO  --- 2024-11-27 15:27:51,721 --- views --- subject name is : Telugu 
+INFO  --- 2024-11-27 15:27:51,721 --- views --- class_no  is : 9
+INFO  --- 2024-11-27 15:27:51,721 --- views --- Is language: False
+INFO  --- 2024-11-27 15:27:51,721 --- views --- Type of is_language: <class 'str'>: value : False
+INFO  --- 2024-11-27 15:27:51,721 --- RecordingDurationMonitor --- Recording data cleared
+INFO  --- 2024-11-27 15:27:51,721 --- Recorder --- Sent 'q' to stop recording.
+INFO  --- 2024-11-27 15:27:51,835 --- Recorder --- Recording stopped gracefully.
+WARNING  --- 2024-11-27 15:27:51,835 --- Recorder --- No screen grab in progress.
+INFO  --- 2024-11-27 15:27:51,835 --- views --- Stopped recording for subject: TG101
+INFO  --- 2024-11-27 15:27:51,836 --- views --- Single recording found.
+INFO  --- 2024-11-27 15:27:51,836 --- Recorder --- Single file: 27-11-2024_14-49-01_recorded_video_0.mp4, No need concatination
+INFO  --- 2024-11-27 15:27:51,836 --- Recorder --- File renamed from /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video_0.mp4 to /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video.mp4
+INFO  --- 2024-11-27 15:27:51,837 --- views --- No Screen grab Recording found.
+DEBUG  --- 2024-11-27 15:27:51,837 --- Recorder --- File Info Retrieved: filename=27-11-2024_14-49-01_recorded_video.mp4, filepath=/home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video.mp4
+INFO  --- 2024-11-27 15:27:51,837 --- views --- File Info: {'filename': '27-11-2024_14-49-01_recorded_video.mp4', 'filepath': '/home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video.mp4'}
+INFO  --- 2024-11-27 15:27:51,837 --- ProcessingQueue --- Queue saved to JSON file at /home/eonpod/eonpod-ai/pod/eonpod/media/processing_queue_state.json.
+INFO  --- 2024-11-27 15:27:51,837 --- ProcessingQueue --- Added to queue: 27-11-2024_14-49-01_recorded_video.mp4 with path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video.mp4, subject: TG101, is_language: False
+INFO  --- 2024-11-27 15:28:38,475 --- ProcessingQueue --- Processing file: 27-11-2024_14-49-01_recorded_video.mp4
+INFO  --- 2024-11-27 15:28:38,475 --- ProcessingQueue --- Type of is_language: <class 'str'>: value : False
+INFO  --- 2024-11-27 15:28:38,475 --- ProcessingQueue --- Sending 27-11-2024_14-49-01_recorded_video.mp4 to processor to process files
+INFO  --- 2024-11-27 15:28:38,751 --- ProcessingQueue --- Thumbnail saved at: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/thumbnail_1.png
+INFO  --- 2024-11-27 15:28:39,007 --- ProcessingQueue --- Thumbnail saved at: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/thumbnail_2.png
+INFO  --- 2024-11-27 15:28:39,008 --- video_processor --- start processing: input_video_url: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/TG101/27-11-2024_14-49-01/27-11-2024_14-49-01_recorded_video.mp4, class_n: 9, subject: Telugu , use_gpt: True, render_final_video: True
+INFO  --- 2024-11-27 15:28:39,008 --- video_processor --- starting processing video
+INFO  --- 2024-11-27 15:31:59,573 --- views --- Response from API: 200
+INFO  --- 2024-11-27 15:31:59,586 --- views --- subject group values fetched:[{'id': 'ff9e7fd9-8a03-491e-a224-942cc55d7c7f', 'class_name': '9', 'subject': 'English', 'is_language_subject': False, 'section': 'A', 'title': 'EN101', 'is_active': True, 'school_id': '4d8ba306-6bca-4134-a34e-ce5168b9d0d9'}]
+INFO  --- 2024-11-27 15:32:01,421 --- CheckConnections --- Testing RTSP connection to rtsp://admin:hik@9753@192.168.0.77:554/Streaming/Channels/101
+DEBUG  --- 2024-11-27 15:32:02,639 --- CheckConnections --- RTSP connection successful!
+INFO  --- 2024-11-27 15:32:03,075 --- views --- selected subject is : EN101
+INFO  --- 2024-11-27 15:32:03,075 --- views --- subject name is : English
+INFO  --- 2024-11-27 15:32:03,075 --- views --- class_no  is : 9
+INFO  --- 2024-11-27 15:32:03,076 --- views --- Started recording for subject: EN101
+INFO  --- 2024-11-27 15:32:03,076 --- views --- Is language: False
+INFO  --- 2024-11-27 15:32:03,076 --- RecordingDurationMonitor --- Recording start time set
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Audio device detected is: (5, '(hw:5,0)')
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Media folder path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files (Type: <class 'str'>)
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Subject: EN101 (Type: <class 'str'>)
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Timestamp: 27-11-2024_15-32-03 (Type: <class 'str'>)
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Constructed filepath: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/EN101/27-11-2024_15-32-03 (Type: <class 'str'>)
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Filename: 27-11-2024_15-32-03_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 15:32:03,076 --- Recorder --- Full filepath with filename: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/EN101/27-11-2024_15-32-03/27-11-2024_15-32-03_recorded_video_0.mp4 (Type: <class 'str'>)
+INFO  --- 2024-11-27 15:32:03,077 --- Recorder --- Audio device index: 5
+INFO  --- 2024-11-27 15:32:03,077 --- Recorder --- Audio device hw_value: hw:5,0
+INFO  --- 2024-11-27 15:32:03,252 --- Recorder --- Recording started: 27-11-2024_15-32-03_recorded_video_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/EN101/27-11-2024_15-32-03/27-11-2024_15-32-03_recorded_video_0.mp4
+INFO  --- 2024-11-27 15:32:03,417 --- Recorder --- Screen Grab started: 27-11-2024_15-32-03_screen_grab_0.mp4, File path: /home/eonpod/eonpod-ai/pod/eonpod/media/processed_files/EN101/27-11-2024_15-32-03/27-11-2024_15-32-03_screen_grab_0.mp4
+DEBUG  --- 2024-11-27 15:32:04,644 --- CheckConnections --- device name passed to pyaudio function is :USB Composite Device
+DEBUG  --- 2024-11-27 15:32:04,645 --- CheckConnections --- Checking device: rockchip-hdmi0: i2s-hifi-0 (hw:0,0)
+DEBUG  --- 2024-11-27 15:32:04,645 --- CheckConnections --- Checking device: rockchip-hdmi1: i2s-hifi-0 (hw:1,0)
+DEBUG  --- 2024-11-27 15:32:04,645 --- CheckConnections --- Checking device: rockchip-dp0: spdif-hifi-0 (hw:2,0)
+DEBUG  --- 2024-11-27 15:32:04,645 --- CheckConnections --- Checking device: rockchip-hdmiin: i2s-hifi-0 (hw:3,0)
+DEBUG  --- 2024-11-27 15:32:04,646 --- CheckConnections --- Checking device: rockchip-es8316: dailink-multicodecs ES8316 HiFi-0 (hw:4,0)
+DEBUG  --- 2024-11-27 15:32:04,646 --- CheckConnections --- Checking device: USB Composite Device: Audio (hw:5,0)
+INFO  --- 2024-11-27 15:32:04,646 --- CheckConnections --- Info of detected device is {'index': 5, 'structVersion': 2, 'name': 'USB Composite Device: Audio (hw:5,0)', 'hostApi': 0, 'maxInputChannels': 1, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.007979166666666667, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.032, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 48000.0}
+INFO  --- 2024-11-27 15:32:04,646 --- CheckConnections --- Found audio device: USB Composite Device: Audio (hw:5,0) with index 5 and hw value (hw:5,0)
+INFO  --- 2024-11-27 15:32:04,647 --- CheckConnections --- Found audio device at index 5 with hw value (hw:5,0)
+INFO  --- 2024-11-27 15:32:04,647 --- CheckConnections --- Testing ALSA connection with device index 5
+ERROR  --- 2024-11-27 15:32:05,795 --- CheckConnections --- Failed to connect to ALSA audio device: [Errno -9985] Device unavailable
+INFO  --- 2024-11-27 15:32:05,795 --- CheckConnections --- Testing video device at /dev/video1
+ERROR  --- 2024-11-27 15:32:05,796 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
+INFO  --- 2024-11-27 15:32:05,797 --- views --- Camera status: True, Mic status: False, Screen capture status: False
 DEBUG  --- 2024-11-27 20:09:27,266 --- DBOffloader --- 
 INFO  --- 2024-11-27 20:09:27,295 --- Recorder --- Initialized Recorder
 INFO  --- 2024-11-27 20:09:27,298 --- ProcessingQueue --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/processing_queue_state.json
@@ -330,3 +535,43 @@ ERROR  --- 2024-11-28 11:56:23,579 --- CheckConnections --- No audio device foun
 INFO  --- 2024-11-28 11:56:23,579 --- CheckConnections --- Testing video device at /dev/video1
 ERROR  --- 2024-11-28 11:56:23,581 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
 INFO  --- 2024-11-28 11:56:23,581 --- views --- Camera status: False, Mic status: False, Screen capture status: False
+DEBUG  --- 2024-11-30 20:09:27,266 --- DBOffloader --- 
+INFO  --- 2024-11-30 20:09:27,295 --- Recorder --- Initialized Recorder
+INFO  --- 2024-11-30 20:09:27,298 --- ProcessingQueue --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/processing_queue_state.json
+INFO  --- 2024-11-30 20:09:27,354 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-30 20:09:27,356 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-30 20:09:27,357 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-30 20:09:27,653 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-30 20:09:27,686 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-30 20:09:27,691 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-30 20:09:27,742 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-30 20:09:27,742 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-30 20:09:27,743 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-30 20:09:27,803 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-30 20:09:27,835 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-30 20:09:27,876 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-30 20:09:27,877 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-30 20:09:27,878 --- Delete --- Initialized DeletionJob with base folder: /home/eon/eonpod-ai-small/pod/eonpod/pod/classes/../../media/processed_files
+INFO  --- 2024-11-30 20:09:27,878 --- Delete --- Deletion Job is set to run daily at 5 PM.
+INFO  --- 2024-11-30 20:09:27,878 --- Delete --- Started background deletion thread.
+INFO  --- 2024-11-30 20:09:27,879 --- Delete --- Sleeping for 1250.5353471166668 minutes until deletion job.
+INFO  --- 2024-11-30 20:09:27,879 --- ProcessingQueue --- Initialized ProcessingQueue
+INFO  --- 2024-11-30 20:09:27,882 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-30 20:09:27,996 --- DBOffloader --- Starting DB offload on server start.
+INFO  --- 2024-11-30 20:09:27,996 --- DBOffloader --- Initialized DBOffloader and started background thread.
+INFO  --- 2024-11-30 20:09:27,996 --- DBOffloader --- Migrating table: school
+INFO  --- 2024-11-30 20:09:27,996 --- CheckConnections --- Initialized CheckConnections
+INFO  --- 2024-11-30 20:09:27,998 --- RecordingDurationMonitor --- Recording duration monitor thread started
+INFO  --- 2024-11-30 20:09:28,017 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-30 20:09:28,647 --- DBOffloader --- Data fetched for school, rows: 5
+INFO  --- 2024-11-30 20:09:28,742 --- DBOffloader --- Data inserted into school.
+INFO  --- 2024-11-30 20:09:28,775 --- DBOffloader --- Migrating table: staff
+INFO  --- 2024-11-30 20:09:28,843 --- DBOffloader --- Data fetched for staff, rows: 32
+INFO  --- 2024-11-30 20:09:28,927 --- DBOffloader --- Data inserted into staff.
+INFO  --- 2024-11-30 20:09:28,961 --- DBOffloader --- Migrating table: subject_group
+INFO  --- 2024-11-30 20:09:29,029 --- DBOffloader --- Data fetched for subject_group, rows: 40
+INFO  --- 2024-11-30 20:09:29,113 --- DBOffloader --- Data inserted into subject_group.
+INFO  --- 2024-11-30 20:09:29,148 --- DBOffloader --- Migrating table: teacher_subject_groups
+INFO  --- 2024-11-30 20:09:29,218 --- DBOffloader --- Data fetched for teacher_subject_groups, rows: 44
+INFO  --- 2024-11-30 20:09:29,307 --- DBOffloader --- Data inserted into teacher_subject_groups.
+INFO  --- 2024-11-30 20:09:29,351 --- DBOffloader --- Data migration completed successfully.
