@@ -1,0 +1,332 @@
+DEBUG  --- 2024-11-27 20:09:27,266 --- DBOffloader --- 
+INFO  --- 2024-11-27 20:09:27,295 --- Recorder --- Initialized Recorder
+INFO  --- 2024-11-27 20:09:27,298 --- ProcessingQueue --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/processing_queue_state.json
+INFO  --- 2024-11-27 20:09:27,354 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-27 20:09:27,356 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-27 20:09:27,357 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-27 20:09:27,653 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:09:27,686 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-27 20:09:27,691 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-27 20:09:27,742 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-27 20:09:27,742 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-27 20:09:27,743 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-27 20:09:27,803 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:09:27,835 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:09:27,876 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-27 20:09:27,877 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-27 20:09:27,878 --- Delete --- Initialized DeletionJob with base folder: /home/eon/eonpod-ai-small/pod/eonpod/pod/classes/../../media/processed_files
+INFO  --- 2024-11-27 20:09:27,878 --- Delete --- Deletion Job is set to run daily at 5 PM.
+INFO  --- 2024-11-27 20:09:27,878 --- Delete --- Started background deletion thread.
+INFO  --- 2024-11-27 20:09:27,879 --- Delete --- Sleeping for 1250.5353471166668 minutes until deletion job.
+INFO  --- 2024-11-27 20:09:27,879 --- ProcessingQueue --- Initialized ProcessingQueue
+INFO  --- 2024-11-27 20:09:27,882 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-27 20:09:27,996 --- DBOffloader --- Starting DB offload on server start.
+INFO  --- 2024-11-27 20:09:27,996 --- DBOffloader --- Initialized DBOffloader and started background thread.
+INFO  --- 2024-11-27 20:09:27,996 --- DBOffloader --- Migrating table: school
+INFO  --- 2024-11-27 20:09:27,996 --- CheckConnections --- Initialized CheckConnections
+INFO  --- 2024-11-27 20:09:27,998 --- RecordingDurationMonitor --- Recording duration monitor thread started
+INFO  --- 2024-11-27 20:09:28,017 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:09:28,647 --- DBOffloader --- Data fetched for school, rows: 5
+INFO  --- 2024-11-27 20:09:28,742 --- DBOffloader --- Data inserted into school.
+INFO  --- 2024-11-27 20:09:28,775 --- DBOffloader --- Migrating table: staff
+INFO  --- 2024-11-27 20:09:28,843 --- DBOffloader --- Data fetched for staff, rows: 32
+INFO  --- 2024-11-27 20:09:28,927 --- DBOffloader --- Data inserted into staff.
+INFO  --- 2024-11-27 20:09:28,961 --- DBOffloader --- Migrating table: subject_group
+INFO  --- 2024-11-27 20:09:29,029 --- DBOffloader --- Data fetched for subject_group, rows: 40
+INFO  --- 2024-11-27 20:09:29,113 --- DBOffloader --- Data inserted into subject_group.
+INFO  --- 2024-11-27 20:09:29,148 --- DBOffloader --- Migrating table: teacher_subject_groups
+INFO  --- 2024-11-27 20:09:29,218 --- DBOffloader --- Data fetched for teacher_subject_groups, rows: 44
+INFO  --- 2024-11-27 20:09:29,307 --- DBOffloader --- Data inserted into teacher_subject_groups.
+INFO  --- 2024-11-27 20:09:29,351 --- DBOffloader --- Data migration completed successfully.
+DEBUG  --- 2024-11-27 20:11:52,786 --- DBOffloader --- 
+INFO  --- 2024-11-27 20:11:52,806 --- Recorder --- Initialized Recorder
+INFO  --- 2024-11-27 20:11:52,806 --- ProcessingQueue --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/processing_queue_state.json
+INFO  --- 2024-11-27 20:11:52,860 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-27 20:11:52,861 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-27 20:11:52,862 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-27 20:11:52,984 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:11:53,017 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-27 20:11:53,022 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-27 20:11:53,066 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-27 20:11:53,068 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-27 20:11:53,069 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-27 20:11:53,146 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:11:53,180 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:11:53,213 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-27 20:11:53,214 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-27 20:11:53,214 --- Delete --- Initialized DeletionJob with base folder: /home/eon/eonpod-ai-small/pod/eonpod/pod/classes/../../media/processed_files
+INFO  --- 2024-11-27 20:11:53,214 --- Delete --- Deletion Job is set to run daily at 5 PM.
+INFO  --- 2024-11-27 20:11:53,214 --- Delete --- Started background deletion thread.
+INFO  --- 2024-11-27 20:11:53,215 --- Delete --- Sleeping for 1248.1130811166665 minutes until deletion job.
+INFO  --- 2024-11-27 20:11:53,215 --- ProcessingQueue --- Initialized ProcessingQueue
+INFO  --- 2024-11-27 20:11:53,218 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-27 20:11:53,307 --- DBOffloader --- Starting DB offload on server start.
+INFO  --- 2024-11-27 20:11:53,307 --- DBOffloader --- Initialized DBOffloader and started background thread.
+INFO  --- 2024-11-27 20:11:53,307 --- DBOffloader --- Migrating table: school
+INFO  --- 2024-11-27 20:11:53,307 --- CheckConnections --- Initialized CheckConnections
+INFO  --- 2024-11-27 20:11:53,309 --- RecordingDurationMonitor --- Recording duration monitor thread started
+INFO  --- 2024-11-27 20:11:53,323 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-27 20:11:53,883 --- DBOffloader --- Data fetched for school, rows: 5
+INFO  --- 2024-11-27 20:11:53,966 --- DBOffloader --- Data inserted into school.
+INFO  --- 2024-11-27 20:11:54,000 --- DBOffloader --- Migrating table: staff
+INFO  --- 2024-11-27 20:11:54,061 --- DBOffloader --- Data fetched for staff, rows: 32
+INFO  --- 2024-11-27 20:11:54,115 --- DBOffloader --- Data inserted into staff.
+INFO  --- 2024-11-27 20:11:54,144 --- DBOffloader --- Migrating table: subject_group
+INFO  --- 2024-11-27 20:11:54,202 --- DBOffloader --- Data fetched for subject_group, rows: 40
+INFO  --- 2024-11-27 20:11:54,249 --- DBOffloader --- Data inserted into subject_group.
+INFO  --- 2024-11-27 20:11:54,278 --- DBOffloader --- Migrating table: teacher_subject_groups
+INFO  --- 2024-11-27 20:11:54,339 --- DBOffloader --- Data fetched for teacher_subject_groups, rows: 44
+INFO  --- 2024-11-27 20:11:54,401 --- DBOffloader --- Data inserted into teacher_subject_groups.
+INFO  --- 2024-11-27 20:11:54,438 --- DBOffloader --- Data migration completed successfully.
+DEBUG  --- 2024-11-28 11:53:08,676 --- DBOffloader --- 
+INFO  --- 2024-11-28 11:53:08,693 --- Recorder --- Initialized Recorder
+INFO  --- 2024-11-28 11:53:08,693 --- ProcessingQueue --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/processing_queue_state.json
+INFO  --- 2024-11-28 11:53:08,745 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:53:08,746 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-28 11:53:08,747 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-28 11:53:08,859 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:53:08,890 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-28 11:53:08,894 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-28 11:53:08,932 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:53:08,933 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-28 11:53:08,934 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-28 11:53:09,001 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:53:09,032 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:53:09,067 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-28 11:53:09,068 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:53:09,069 --- Delete --- Initialized DeletionJob with base folder: /home/eon/eonpod-ai-small/pod/eonpod/pod/classes/../../media/processed_files
+INFO  --- 2024-11-28 11:53:09,069 --- Delete --- Deletion Job is set to run daily at 5 PM.
+INFO  --- 2024-11-28 11:53:09,069 --- Delete --- Started background deletion thread.
+INFO  --- 2024-11-28 11:53:09,070 --- Delete --- Sleeping for 306.84882230000005 minutes until deletion job.
+INFO  --- 2024-11-28 11:53:09,071 --- ProcessingQueue --- Initialized ProcessingQueue
+INFO  --- 2024-11-28 11:53:09,074 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-28 11:53:09,179 --- DBOffloader --- Starting DB offload on server start.
+INFO  --- 2024-11-28 11:53:09,179 --- DBOffloader --- Initialized DBOffloader and started background thread.
+INFO  --- 2024-11-28 11:53:09,180 --- DBOffloader --- Migrating table: school
+INFO  --- 2024-11-28 11:53:09,180 --- CheckConnections --- Initialized CheckConnections
+INFO  --- 2024-11-28 11:53:09,181 --- RecordingDurationMonitor --- Recording duration monitor thread started
+ERROR  --- 2024-11-28 11:53:09,182 --- DBOffloader --- Error migrating table school: (psycopg2.OperationalError) could not translate host name "learneonprod-read-replica.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:53:09,187 --- DBOffloader --- Rolled back changes for table school due to error.
+INFO  --- 2024-11-28 11:53:09,188 --- DBOffloader --- Migrating table: staff
+INFO  --- 2024-11-28 11:53:09,200 --- S3Uploader --- Successfully initialized AWS clients
+ERROR  --- 2024-11-28 11:53:09,201 --- DBOffloader --- Error migrating table staff: (psycopg2.OperationalError) could not translate host name "learneonprod-read-replica.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:53:09,201 --- DBOffloader --- Rolled back changes for table staff due to error.
+INFO  --- 2024-11-28 11:53:09,203 --- DBOffloader --- Migrating table: subject_group
+ERROR  --- 2024-11-28 11:53:09,205 --- DBOffloader --- Error migrating table subject_group: (psycopg2.OperationalError) could not translate host name "learneonprod-read-replica.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:53:09,205 --- DBOffloader --- Rolled back changes for table subject_group due to error.
+INFO  --- 2024-11-28 11:53:09,205 --- DBOffloader --- Migrating table: teacher_subject_groups
+ERROR  --- 2024-11-28 11:53:09,207 --- DBOffloader --- Error migrating table teacher_subject_groups: (psycopg2.OperationalError) could not translate host name "learneonprod-read-replica.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:53:09,208 --- DBOffloader --- Rolled back changes for table teacher_subject_groups due to error.
+INFO  --- 2024-11-28 11:53:09,208 --- DBOffloader --- Data migration completed successfully.
+INFO  --- 2024-11-28 11:53:29,341 --- views --- Error during API call: HTTPConnectionPool(host='13.200.166.103', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5cf7300670>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:53:29,460 --- views --- Staff member not found for value: 4100
+ERROR  --- 2024-11-28 11:53:29,461 --- views --- An error occurred during login: 'first_name'
+DEBUG  --- 2024-11-28 11:54:17,485 --- DBOffloader --- 
+INFO  --- 2024-11-28 11:54:17,501 --- Recorder --- Initialized Recorder
+INFO  --- 2024-11-28 11:54:17,501 --- ProcessingQueue --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/processing_queue_state.json
+INFO  --- 2024-11-28 11:54:17,547 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:54:17,548 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-28 11:54:17,548 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-28 11:54:17,643 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:54:17,674 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-28 11:54:17,678 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-28 11:54:17,718 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:54:17,719 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-28 11:54:17,720 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-28 11:54:17,779 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:54:17,811 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:54:17,841 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-28 11:54:17,842 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:54:17,842 --- Delete --- Initialized DeletionJob with base folder: /home/eon/eonpod-ai-small/pod/eonpod/pod/classes/../../media/processed_files
+INFO  --- 2024-11-28 11:54:17,843 --- Delete --- Deletion Job is set to run daily at 5 PM.
+INFO  --- 2024-11-28 11:54:17,843 --- Delete --- Started background deletion thread.
+INFO  --- 2024-11-28 11:54:17,843 --- Delete --- Sleeping for 305.70261158333335 minutes until deletion job.
+INFO  --- 2024-11-28 11:54:17,843 --- ProcessingQueue --- Initialized ProcessingQueue
+INFO  --- 2024-11-28 11:54:17,845 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-28 11:54:17,897 --- DBOffloader --- Starting DB offload on server start.
+INFO  --- 2024-11-28 11:54:17,897 --- DBOffloader --- Initialized DBOffloader and started background thread.
+INFO  --- 2024-11-28 11:54:17,897 --- DBOffloader --- Migrating table: school
+INFO  --- 2024-11-28 11:54:17,897 --- CheckConnections --- Initialized CheckConnections
+INFO  --- 2024-11-28 11:54:17,898 --- RecordingDurationMonitor --- Recording duration monitor thread started
+ERROR  --- 2024-11-28 11:54:17,900 --- DBOffloader --- Error migrating table school: (psycopg2.OperationalError) could not translate host name "learneondev.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:54:17,905 --- DBOffloader --- Rolled back changes for table school due to error.
+INFO  --- 2024-11-28 11:54:17,906 --- DBOffloader --- Migrating table: staff
+ERROR  --- 2024-11-28 11:54:17,919 --- DBOffloader --- Error migrating table staff: (psycopg2.OperationalError) could not translate host name "learneondev.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:54:17,919 --- DBOffloader --- Rolled back changes for table staff due to error.
+INFO  --- 2024-11-28 11:54:17,920 --- DBOffloader --- Migrating table: subject_group
+ERROR  --- 2024-11-28 11:54:17,921 --- DBOffloader --- Error migrating table subject_group: (psycopg2.OperationalError) could not translate host name "learneondev.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:54:17,921 --- DBOffloader --- Rolled back changes for table subject_group due to error.
+INFO  --- 2024-11-28 11:54:17,922 --- DBOffloader --- Migrating table: teacher_subject_groups
+ERROR  --- 2024-11-28 11:54:17,924 --- DBOffloader --- Error migrating table teacher_subject_groups: (psycopg2.OperationalError) could not translate host name "learneondev.cngyygccg89w.ap-south-1.rds.amazonaws.com" to address: Temporary failure in name resolution
+INFO  --- 2024-11-28 11:54:17,924 --- DBOffloader --- Rolled back changes for table teacher_subject_groups due to error.
+INFO  --- 2024-11-28 11:54:17,925 --- DBOffloader --- Data migration completed successfully.
+INFO  --- 2024-11-28 11:54:17,948 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:54:21,646 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff00f308460>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:54:21,688 --- views --- Staff member not found for value: 4100
+ERROR  --- 2024-11-28 11:54:21,689 --- views --- An error occurred during login: 'first_name'
+INFO  --- 2024-11-28 11:54:40,177 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff00f3095a0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:54:40,224 --- views --- Staff member not found for value: 4000
+ERROR  --- 2024-11-28 11:54:40,224 --- views --- An error occurred during login: 'first_name'
+INFO  --- 2024-11-28 11:54:45,006 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff00f014550>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:54:45,054 --- views --- Staff member not found for value: 2114
+ERROR  --- 2024-11-28 11:54:45,055 --- views --- An error occurred during login: 'first_name'
+INFO  --- 2024-11-28 11:54:48,317 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff00ef70eb0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:54:48,343 --- views --- Staff member not found for value: 4112
+ERROR  --- 2024-11-28 11:54:48,344 --- views --- An error occurred during login: 'first_name'
+DEBUG  --- 2024-11-28 11:55:39,696 --- DBOffloader --- 
+INFO  --- 2024-11-28 11:55:39,717 --- Recorder --- Initialized Recorder
+INFO  --- 2024-11-28 11:55:39,717 --- ProcessingQueue --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/processing_queue_state.json
+INFO  --- 2024-11-28 11:55:39,767 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:55:39,768 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-28 11:55:39,768 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-28 11:55:39,876 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:55:39,907 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-28 11:55:39,911 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-28 11:55:39,951 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:55:39,951 --- S3Uploader --- Loaded queue from JSON file: /home/eon/eonpod-ai-small/pod/eonpod/media/S3_queue_state.json
+INFO  --- 2024-11-28 11:55:39,952 --- S3Uploader --- Loaded 0 items from existing queue
+INFO  --- 2024-11-28 11:55:40,009 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:55:40,045 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:55:40,075 --- S3Uploader --- Initialized S3UploadQueue processor daemon with queue size: 0
+INFO  --- 2024-11-28 11:55:40,076 --- JsonBuilder --- Initialized JsonBuilder
+INFO  --- 2024-11-28 11:55:40,076 --- Delete --- Initialized DeletionJob with base folder: /home/eon/eonpod-ai-small/pod/eonpod/pod/classes/../../media/processed_files
+INFO  --- 2024-11-28 11:55:40,077 --- Delete --- Deletion Job is set to run daily at 5 PM.
+INFO  --- 2024-11-28 11:55:40,077 --- Delete --- Sleeping for 304.3320472833333 minutes until deletion job.
+INFO  --- 2024-11-28 11:55:40,077 --- Delete --- Started background deletion thread.
+INFO  --- 2024-11-28 11:55:40,077 --- ProcessingQueue --- Initialized ProcessingQueue
+INFO  --- 2024-11-28 11:55:40,081 --- S3Uploader --- Starting queue processor
+INFO  --- 2024-11-28 11:55:40,138 --- DBOffloader --- Starting DB offload on server start.
+INFO  --- 2024-11-28 11:55:40,138 --- DBOffloader --- Initialized DBOffloader and started background thread.
+INFO  --- 2024-11-28 11:55:40,139 --- DBOffloader --- Migrating table: school
+INFO  --- 2024-11-28 11:55:40,139 --- CheckConnections --- Initialized CheckConnections
+INFO  --- 2024-11-28 11:55:40,140 --- RecordingDurationMonitor --- Recording duration monitor thread started
+INFO  --- 2024-11-28 11:55:40,188 --- S3Uploader --- Successfully initialized AWS clients
+INFO  --- 2024-11-28 11:55:40,713 --- DBOffloader --- Data fetched for school, rows: 8
+INFO  --- 2024-11-28 11:55:40,791 --- DBOffloader --- Data inserted into school.
+INFO  --- 2024-11-28 11:55:40,816 --- DBOffloader --- Migrating table: staff
+INFO  --- 2024-11-28 11:55:40,904 --- DBOffloader --- Data fetched for staff, rows: 165
+INFO  --- 2024-11-28 11:55:40,982 --- DBOffloader --- Data inserted into staff.
+INFO  --- 2024-11-28 11:55:41,006 --- DBOffloader --- Migrating table: subject_group
+INFO  --- 2024-11-28 11:55:41,064 --- DBOffloader --- Data fetched for subject_group, rows: 148
+INFO  --- 2024-11-28 11:55:41,226 --- DBOffloader --- Data inserted into subject_group.
+INFO  --- 2024-11-28 11:55:41,253 --- DBOffloader --- Migrating table: teacher_subject_groups
+INFO  --- 2024-11-28 11:55:41,313 --- DBOffloader --- Data fetched for teacher_subject_groups, rows: 112
+INFO  --- 2024-11-28 11:55:41,388 --- DBOffloader --- Data inserted into teacher_subject_groups.
+INFO  --- 2024-11-28 11:55:41,415 --- DBOffloader --- Data migration completed successfully.
+INFO  --- 2024-11-28 11:55:43,889 --- views --- Response from API: 200
+INFO  --- 2024-11-28 11:55:43,890 --- views --- subject group values fetched:[{'class_name': '10', 'id': '6ae01b8a-5710-408e-aa7c-89abaae1ec0a', 'subject': 'History', 'is_language_subject': False, 'section': 'H', 'title': 'CL10HIST', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0'}, {'class_name': '10', 'id': '1ed688c4-cf7a-4054-afb1-04fc3ebaf197', 'subject': 'Maths', 'is_language_subject': False, 'section': 'H', 'title': 'CL10FMATH', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0'}, {'class_name': '10', 'id': '129e4031-4c6e-4830-95d4-f49cb1b10603', 'subject': 'English', 'is_language_subject': False, 'section': 'H', 'title': 'CL10FENG', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0'}, {'class_name': '10', 'id': '257edba5-8a4c-4096-8dd9-699e205eeaeb', 'subject': 'Biology', 'is_language_subject': False, 'section': 'H', 'title': 'CL10FBIOL', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0'}, {'class_name': '10', 'id': '1bd1619d-270a-4446-88cd-1dd14d0e1d9b', 'subject': 'IT', 'is_language_subject': False, 'section': 'H', 'title': 'CL10HITS', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0'}]
+INFO  --- 2024-11-28 11:55:55,556 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9189e25c60>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+INFO  --- 2024-11-28 11:55:55,623 --- views --- Login successful: Lakshmi B
+INFO  --- 2024-11-28 11:55:55,633 --- views --- Subject groups successfully retrieved from local DB
+INFO  --- 2024-11-28 11:55:55,636 --- views --- subject group values fetched:[{'class_name': '10', 'title': 'CL10HIST', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '6ae01b8a-5710-408e-aa7c-89abaae1ec0a', 'subject': 'History', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10FMATH', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '1ed688c4-cf7a-4054-afb1-04fc3ebaf197', 'subject': 'Maths', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10FENG', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '129e4031-4c6e-4830-95d4-f49cb1b10603', 'subject': 'English', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10FBIOL', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '257edba5-8a4c-4096-8dd9-699e205eeaeb', 'subject': 'Biology', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10HITS', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '1bd1619d-270a-4446-88cd-1dd14d0e1d9b', 'subject': 'IT', 'is_language_subject': False, 'section': 'H'}]
+INFO  --- 2024-11-28 11:55:58,964 --- CheckConnections --- Testing RTSP connection to rtsp://admin:hik@9753@192.168.0.75:554/Streaming/Channels/101
+ERROR  --- 2024-11-28 11:55:58,978 --- CheckConnections --- Failed to connect to RTSP stream.
+DEBUG  --- 2024-11-28 11:56:01,247 --- CheckConnections --- device name passed to pyaudio function is :USB Composite Device
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: HDA Intel PCH: ALC285 Analog (hw:0,0)
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 0 (hw:0,3)
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 1 (hw:0,7)
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 2 (hw:0,8)
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 3 (hw:0,9)
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 4 (hw:0,10)
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: sysdefault
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: front
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: surround40
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: surround51
+DEBUG  --- 2024-11-28 11:56:01,248 --- CheckConnections --- Checking device: surround71
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: hdmi
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: samplerate
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: speexrate
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: pulse
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: upmix
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: vdownmix
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: dmix
+DEBUG  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Checking device: default
+WARNING  --- 2024-11-28 11:56:01,249 --- CheckConnections --- No device found matching 'USB Composite Device'. Listing available devices:
+INFO  --- 2024-11-28 11:56:01,249 --- CheckConnections --- Device index 0: HDA Intel PCH: ALC285 Analog (hw:0,0)
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 1: HDA Intel PCH: HDMI 0 (hw:0,3)
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 2: HDA Intel PCH: HDMI 1 (hw:0,7)
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 3: HDA Intel PCH: HDMI 2 (hw:0,8)
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 4: HDA Intel PCH: HDMI 3 (hw:0,9)
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 5: HDA Intel PCH: HDMI 4 (hw:0,10)
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 6: sysdefault
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 7: front
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 8: surround40
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 9: surround51
+INFO  --- 2024-11-28 11:56:01,250 --- CheckConnections --- Device index 10: surround71
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 11: hdmi
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 12: samplerate
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 13: speexrate
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 14: pulse
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 15: upmix
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 16: vdownmix
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 17: dmix
+INFO  --- 2024-11-28 11:56:01,251 --- CheckConnections --- Device index 18: default
+WARNING  --- 2024-11-28 11:56:01,251 --- CheckConnections --- No matching audio device found.
+ERROR  --- 2024-11-28 11:56:01,252 --- CheckConnections --- No audio device found, skipping ALSA test.
+INFO  --- 2024-11-28 11:56:01,252 --- CheckConnections --- Testing video device at /dev/video1
+ERROR  --- 2024-11-28 11:56:01,254 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
+INFO  --- 2024-11-28 11:56:01,255 --- views --- Camera status: False, Mic status: False, Screen capture status: False
+INFO  --- 2024-11-28 11:56:03,821 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91b222aaa0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+INFO  --- 2024-11-28 11:56:03,851 --- views --- Login successful: Binita Singh
+INFO  --- 2024-11-28 11:56:03,859 --- views --- Subject groups successfully retrieved from local DB
+INFO  --- 2024-11-28 11:56:03,861 --- views --- subject group values fetched:[{'class_name': '10', 'title': 'CL10HENGB', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '7a2e4a27-f47b-4d64-909f-023dd3604fae', 'subject': 'PHY2', 'is_language_subject': False, 'section': 'H'}]
+INFO  --- 2024-11-28 11:56:09,001 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9189e24f70>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:56:09,097 --- views --- Staff member not found for value: 40002
+ERROR  --- 2024-11-28 11:56:09,097 --- views --- An error occurred during login: 'first_name'
+INFO  --- 2024-11-28 11:56:12,700 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91b2268520>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:56:12,743 --- views --- Staff member not found for value: 654
+ERROR  --- 2024-11-28 11:56:12,744 --- views --- An error occurred during login: 'first_name'
+INFO  --- 2024-11-28 11:56:16,207 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91b2268cd0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+WARNING  --- 2024-11-28 11:56:16,248 --- views --- Staff member not found for value: 91827136
+ERROR  --- 2024-11-28 11:56:16,249 --- views --- An error occurred during login: 'first_name'
+INFO  --- 2024-11-28 11:56:19,324 --- views --- Error during API call: HTTPConnectionPool(host='65.0.252.50', port=5001): Max retries exceeded with url: /get_staff_subject_groups (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91b229cd90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+INFO  --- 2024-11-28 11:56:19,346 --- views --- Login successful: Lakshmi B
+INFO  --- 2024-11-28 11:56:19,354 --- views --- Subject groups successfully retrieved from local DB
+INFO  --- 2024-11-28 11:56:19,356 --- views --- subject group values fetched:[{'class_name': '10', 'title': 'CL10HIST', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '6ae01b8a-5710-408e-aa7c-89abaae1ec0a', 'subject': 'History', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10FMATH', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '1ed688c4-cf7a-4054-afb1-04fc3ebaf197', 'subject': 'Maths', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10FENG', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '129e4031-4c6e-4830-95d4-f49cb1b10603', 'subject': 'English', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10FBIOL', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '257edba5-8a4c-4096-8dd9-699e205eeaeb', 'subject': 'Biology', 'is_language_subject': False, 'section': 'H'}, {'class_name': '10', 'title': 'CL10HITS', 'is_active': True, 'school_id': '386f53d9-d1e2-4728-8742-d6da331908a0', 'id': '1bd1619d-270a-4446-88cd-1dd14d0e1d9b', 'subject': 'IT', 'is_language_subject': False, 'section': 'H'}]
+INFO  --- 2024-11-28 11:56:21,559 --- CheckConnections --- Testing RTSP connection to rtsp://admin:hik@9753@192.168.0.75:554/Streaming/Channels/101
+ERROR  --- 2024-11-28 11:56:21,559 --- CheckConnections --- Failed to connect to RTSP stream.
+DEBUG  --- 2024-11-28 11:56:23,562 --- CheckConnections --- device name passed to pyaudio function is :USB Composite Device
+DEBUG  --- 2024-11-28 11:56:23,563 --- CheckConnections --- Checking device: HDA Intel PCH: ALC285 Analog (hw:0,0)
+DEBUG  --- 2024-11-28 11:56:23,563 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 0 (hw:0,3)
+DEBUG  --- 2024-11-28 11:56:23,564 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 1 (hw:0,7)
+DEBUG  --- 2024-11-28 11:56:23,564 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 2 (hw:0,8)
+DEBUG  --- 2024-11-28 11:56:23,564 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 3 (hw:0,9)
+DEBUG  --- 2024-11-28 11:56:23,565 --- CheckConnections --- Checking device: HDA Intel PCH: HDMI 4 (hw:0,10)
+DEBUG  --- 2024-11-28 11:56:23,565 --- CheckConnections --- Checking device: sysdefault
+DEBUG  --- 2024-11-28 11:56:23,565 --- CheckConnections --- Checking device: front
+DEBUG  --- 2024-11-28 11:56:23,566 --- CheckConnections --- Checking device: surround40
+DEBUG  --- 2024-11-28 11:56:23,566 --- CheckConnections --- Checking device: surround51
+DEBUG  --- 2024-11-28 11:56:23,567 --- CheckConnections --- Checking device: surround71
+DEBUG  --- 2024-11-28 11:56:23,567 --- CheckConnections --- Checking device: hdmi
+DEBUG  --- 2024-11-28 11:56:23,567 --- CheckConnections --- Checking device: samplerate
+DEBUG  --- 2024-11-28 11:56:23,568 --- CheckConnections --- Checking device: speexrate
+DEBUG  --- 2024-11-28 11:56:23,568 --- CheckConnections --- Checking device: pulse
+DEBUG  --- 2024-11-28 11:56:23,569 --- CheckConnections --- Checking device: upmix
+DEBUG  --- 2024-11-28 11:56:23,569 --- CheckConnections --- Checking device: vdownmix
+DEBUG  --- 2024-11-28 11:56:23,569 --- CheckConnections --- Checking device: dmix
+DEBUG  --- 2024-11-28 11:56:23,570 --- CheckConnections --- Checking device: default
+WARNING  --- 2024-11-28 11:56:23,570 --- CheckConnections --- No device found matching 'USB Composite Device'. Listing available devices:
+INFO  --- 2024-11-28 11:56:23,571 --- CheckConnections --- Device index 0: HDA Intel PCH: ALC285 Analog (hw:0,0)
+INFO  --- 2024-11-28 11:56:23,571 --- CheckConnections --- Device index 1: HDA Intel PCH: HDMI 0 (hw:0,3)
+INFO  --- 2024-11-28 11:56:23,571 --- CheckConnections --- Device index 2: HDA Intel PCH: HDMI 1 (hw:0,7)
+INFO  --- 2024-11-28 11:56:23,572 --- CheckConnections --- Device index 3: HDA Intel PCH: HDMI 2 (hw:0,8)
+INFO  --- 2024-11-28 11:56:23,572 --- CheckConnections --- Device index 4: HDA Intel PCH: HDMI 3 (hw:0,9)
+INFO  --- 2024-11-28 11:56:23,573 --- CheckConnections --- Device index 5: HDA Intel PCH: HDMI 4 (hw:0,10)
+INFO  --- 2024-11-28 11:56:23,573 --- CheckConnections --- Device index 6: sysdefault
+INFO  --- 2024-11-28 11:56:23,574 --- CheckConnections --- Device index 7: front
+INFO  --- 2024-11-28 11:56:23,574 --- CheckConnections --- Device index 8: surround40
+INFO  --- 2024-11-28 11:56:23,575 --- CheckConnections --- Device index 9: surround51
+INFO  --- 2024-11-28 11:56:23,575 --- CheckConnections --- Device index 10: surround71
+INFO  --- 2024-11-28 11:56:23,575 --- CheckConnections --- Device index 11: hdmi
+INFO  --- 2024-11-28 11:56:23,576 --- CheckConnections --- Device index 12: samplerate
+INFO  --- 2024-11-28 11:56:23,576 --- CheckConnections --- Device index 13: speexrate
+INFO  --- 2024-11-28 11:56:23,577 --- CheckConnections --- Device index 14: pulse
+INFO  --- 2024-11-28 11:56:23,577 --- CheckConnections --- Device index 15: upmix
+INFO  --- 2024-11-28 11:56:23,578 --- CheckConnections --- Device index 16: vdownmix
+INFO  --- 2024-11-28 11:56:23,578 --- CheckConnections --- Device index 17: dmix
+INFO  --- 2024-11-28 11:56:23,578 --- CheckConnections --- Device index 18: default
+WARNING  --- 2024-11-28 11:56:23,579 --- CheckConnections --- No matching audio device found.
+ERROR  --- 2024-11-28 11:56:23,579 --- CheckConnections --- No audio device found, skipping ALSA test.
+INFO  --- 2024-11-28 11:56:23,579 --- CheckConnections --- Testing video device at /dev/video1
+ERROR  --- 2024-11-28 11:56:23,581 --- CheckConnections --- Failed to connect to video device at /dev/video1. Check if the device path is correct and accessible.
+INFO  --- 2024-11-28 11:56:23,581 --- views --- Camera status: False, Mic status: False, Screen capture status: False
